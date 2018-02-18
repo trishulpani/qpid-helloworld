@@ -7,6 +7,11 @@
 
     <artifactId>qpidmsg</artifactId>
 
+    <properties>
+        <!-- The main class to start by executing java -jar -->
+        <start-class>com.appvizory.houzing.qpidmsg.HelloWorldQpidSpringBoot</start-class>
+    </properties>
+
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
@@ -48,5 +53,14 @@
         </dependency>
 
     </dependencies>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
