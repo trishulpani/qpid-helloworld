@@ -1,0 +1,48 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms",
+      "type": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.deserialization-policy",
+      "sourceMethod": "getDeserializationPolicy()",
+      "type": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties$DeserializationPolicy"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.client-id",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.password",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.receive-local-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.receive-no-wait-local-only",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.remote-u-r-l",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.appvizory.houzing.qpidmsg.config.QpidJMSProperties",
+      "name": "spring.qpidjms.username",
+      "type": "java.lang.String"
+    }
+  ]
+}
