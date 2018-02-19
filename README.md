@@ -11,5 +11,5 @@ To run the sample successfully, you MUST:
 Build from command line of the project root :  mvn clean install
 Run the application using: java -jar target/qpidmsg-1.5.10.RELEASE.jar
 
-For more information feel free to check [Spring Boot Apache Qpid](https://iamtrishulpani.wordpress.com/2018/02/18/spring-boot-apache-qpid-starter/)
+For more information feel free to check [Spring Boot Apache Qpid](https://iamtrishulpani.wordpress.com/2018/02/18/spring-boot-apache-qpid-starter/).
 To set up Qpid locally, I have an additional post at [https://github.com/trishulpani/qpid-helloworld](https://github.com/trishulpani/qpid-helloworld)
