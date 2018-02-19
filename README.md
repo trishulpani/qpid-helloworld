@@ -14,3 +14,5 @@ Run the application using: java -jar target/qpidmsg-1.5.10.RELEASE.jar
 For more information feel free to check [Spring Boot Apache Qpid](https://iamtrishulpani.wordpress.com/2018/02/18/spring-boot-apache-qpid-starter/).
 
 To set up Qpid locally, I have an additional post at [Qpid set up for dummies](https://iamtrishulpani.wordpress.com/2018/02/18/qpid-message-broker-local-set-up-for-dummies-like-me/)
+
+The next step would be to externalize the configuration as much as possible and use introduce Spring Batch to manage message workflow.
